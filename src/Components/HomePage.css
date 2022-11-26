@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  padding: 2%;
+}
+
+.country {
+  width: 25%;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.country:hover {
+  background-image: none !important;
+}
